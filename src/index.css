@@ -2,6 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 body {
@@ -29,4 +35,53 @@ header {
 h1 {
   text-align: center;
   font-size: 1.5rem;
+}
+
+h2 {
+  margin: 0.1rem 0 1rem;
+  font-size: 2rem;
+}
+
+.container {
+  padding: 2rem;
+
+}
+
+.card {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  align-items: center;
+  
+}
+
+.card--img {
+ flex-basis: 150px;
+ flex-shrink: 0;
+ aspect-ratio: 3/4;
+ overflow: hidden;
+ border-radius: 5px;
+}
+
+.card--img > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card--ubicacion {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.card--mapa {
+  color: gray;
+}
+
+.card--fecha {
+  font-size: 14px; 
+}
+
+.card-descripcion {
+  margin-top: 0.5rem;
+
 }

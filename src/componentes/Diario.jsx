@@ -1,9 +1,16 @@
 import React from 'react'
+import Card from './Card'
 
 export default function Diario() {
   return (
-    <section>
-      <h2>Diario</h2>
-    </section>
+    <div className='container'>
+      <Card />
+      <Card />
+      <Card />
+
+
+    </div>
   )
 }
+
+
